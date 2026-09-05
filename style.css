@@ -1,0 +1,343 @@
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#07090c;color:#f3f0e8;font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.wrap{width:min(1220px,91%);margin:auto}label,header .actions a,.head p,.meta small{font-size:9px;letter-spacing:3px;color:#e5b55e}.loader{position:fixed;inset:0;z-index:100;background:#07090c;display:grid;place-items:center;text-align:center;font:38px/0.9 "Playfair Display";animation:fade 1s 1s forwards}.loader b{font:12px "DM Sans";letter-spacing:6px;color:#e5b55e}header{height:72px;position:fixed;z-index:50;inset:0 0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 4.5%;background:#07090cf2;border-bottom:1px solid #242a33;backdrop-filter:blur(12px)}.logo{display:flex;align-items:center;gap:10px}.logo strong{border:1px solid #e5b55e;border-radius:50%;width:34px;height:34px;display:grid;place-items:center;color:#e5b55e;font:12px serif}.logo span{font-weight:700;letter-spacing:2px;font-size:14px}.logo small{display:block;font-size:6px;letter-spacing:3px;color:#818895;margin-top:3px}nav{display:flex;gap:28px;font-size:10px;text-transform:uppercase;letter-spacing:1px}nav a:hover{color:#e5b55e}.actions{display:flex;gap:10px}.actions a{border:1px solid #3a414d;padding:9px 12px;color:#ddd}.actions a:first-child{border-color:#e5b55e}.hero{height:100vh;min-height:680px;position:relative;overflow:hidden}.hero>img{width:100%;height:100%;object-fit:cover;object-position:center 30%}.shade{position:absolute;inset:0;background:linear-gradient(90deg,#05070be6,#05070b98 42%,#05070b25 72%,#05070b99),linear-gradient(0deg,#07090c,transparent 48%)}.copy{position:absolute;left:7%;top:20%;max-width:650px}.copy>small{font-size:9px;letter-spacing:3px;color:#e5b55e}.copy h1{font:clamp(65px,9vw,135px)/.76 "Playfair Display";letter-spacing:-3px;margin:30px 0}.copy h1 i,h2 i{color:#e5b55e;font-weight:500}.copy p{max-width:450px;color:#c0c5ce;line-height:1.7}.btn{display:inline-block;border:1px solid #e5b55e;padding:15px 18px;margin-top:20px;font-size:9px;letter-spacing:2px}.btn:hover{background:#e5b55e;color:#07090c}.scroll{position:absolute;right:5%;top:47%;writing-mode:vertical-rl;font-size:8px;letter-spacing:4px;color:#aaa}.ticker{white-space:nowrap;overflow:hidden;border-block:1px solid #252b34;padding:17px;font-size:9px;letter-spacing:4px;color:#aeb5c0}.ticker{animation:none}.intro{display:grid;grid-template-columns:1fr 2fr;padding:155px 0 130px}.intro h2,.head h2,.statement h2,.brands h2,.sizes h2,.store-info h2,.cta h2{font:clamp(58px,8vw,112px)/.82 "Playfair Display";margin:18px 0 28px;letter-spacing:-2px}.intro p{max-width:550px;margin-left:32%;font-size:20px;line-height:1.6;color:#aeb5bf}.stats{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid #252b34}.stats div{padding:34px 5%;border-right:1px solid #252b34}.stats div:last-child{border:0}.stats b{display:block;color:#e5b55e;font:45px "Playfair Display"}.stats span{font-size:8px;letter-spacing:2px;color:#858d99}.work{padding:150px 0}.head{display:flex;justify-content:space-between;align-items:end;margin-bottom:55px}.head p{text-align:right;color:#838b97;line-height:1.8}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px 16px}.card{border-top:1px solid #303742;padding-top:12px}.pic{aspect-ratio:1.55;overflow:hidden;position:relative;background:#11151c}.pic img{width:100%;height:100%;object-fit:cover;transition:.7s}.card:hover img{transform:scale(1.05)}.pic span{position:absolute;top:12px;left:12px;background:#07090ddd;color:#e5b55e;padding:6px 8px;font-size:8px}.meta{display:flex;justify-content:space-between;padding:15px 4px 5px}.meta h3{margin:8px 0 0;font-size:16px}.meta>b{color:#e5b55e}.statement{background:#10151e;border-block:1px solid #272e39;padding:160px 0}.statement p{max-width:560px;margin-left:40%;color:#aeb5bf;line-height:1.8}.brands{padding:145px 0}.brandwall{display:grid;grid-template-columns:repeat(3,1fr);margin-top:50px}.brandwall span{font:clamp(22px,3vw,40px) "Playfair Display";padding:28px 12px;border-top:1px solid #2a313c}.sizes{display:grid;grid-template-columns:1.5fr .5fr;gap:50px;align-items:center;padding:145px 0}.sizes p{color:#aeb5bf;line-height:1.8}.wheel{width:300px;height:300px;border:1px solid #dcae59;border-radius:50%;display:grid;grid-template-columns:1fr 1fr;align-content:center;text-align:center;justify-self:end;position:relative}.wheel span{font:25px "Playfair Display";padding:10px}.wheel small{position:absolute;inset:50% auto auto 50%;transform:translate(-50%,-50%);font-size:7px;letter-spacing:2px;color:#e5b55e}.store{display:grid;grid-template-columns:1.2fr .8fr;background:#0e1219;border-top:1px solid #252b34}.store-art{min-height:570px;background:linear-gradient(120deg,#101721,#080b10);padding:80px 7%;display:flex;flex-direction:column;justify-content:space-between}.store-art>span{color:#e5b55e;font-size:9px;letter-spacing:3px}.store-art strong{font:clamp(55px,7vw,100px)/.8 "Playfair Display"}.store-info{padding:90px 9%}.store-info p{color:#aeb5bf;line-height:1.8}.links{display:grid;margin-top:35px}.links a{border-top:1px solid #2a303a;padding:16px 0;font-size:10px;letter-spacing:1px}.links a:hover{color:#e5b55e}.cta{text-align:center;padding:160px 0}.cta h2{font-size:clamp(65px,10vw,140px)}footer{border-top:1px solid #252b34;padding:28px 0;color:#747d89;font-size:8px;letter-spacing:1px}footer .wrap{display:flex;justify-content:space-between}@keyframes fade{to{opacity:0;visibility:hidden}}@media(max-width:800px){nav{display:none}.actions a:last-child{display:none}.copy{left:6%;top:18%}.copy h1{font-size:65px}.intro{grid-template-columns:1fr;gap:25px}.intro p,.statement p{margin-left:0}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(2){border-right:0}.grid{grid-template-columns:1fr 1fr}.brandwall{grid-template-columns:1fr 1fr}.sizes{grid-template-columns:1fr}.wheel{justify-self:center}.store{grid-template-columns:1fr}.store-art{min-height:360px}footer .wrap{flex-direction:column;gap:12px}}@media(max-width:520px){.grid,.brandwall{grid-template-columns:1fr}.hero{min-height:620px}.copy h1{font-size:56px}.intro,.work,.brands,.sizes,.cta{padding-top:90px;padding-bottom:90px}.statement{padding:100px 0}}
+
+/* ===== NAMES-ONLY CATEGORY SCROLL ===== */
+.name-categories{padding:155px 0;background:#080a0f;border-top:1px solid #252b34}
+.name-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:58px}
+.name-head h2{font:clamp(60px,8vw,115px)/.8 "Playfair Display";margin:18px 0 0;letter-spacing:-3px}
+.name-head h2 i{color:#e5b55e;font-weight:500}
+.name-head p{font-size:10px;line-height:1.8;letter-spacing:2px;text-align:right;color:#858d99}
+.name-list{border-top:1px solid #303742}
+.name-card{display:grid;grid-template-columns:70px 1fr 60px;align-items:center;min-height:92px;border-bottom:1px solid #252c36;padding:0 12px;transition:background .35s, padding .35s, transform .35s}
+.name-card span{font-size:9px;letter-spacing:2px;color:#e5b55e}
+.name-card h3{font:clamp(27px,3.4vw,52px) "Playfair Display";font-weight:500;letter-spacing:.5px;margin:0;transition:transform .35s,color .35s}
+.name-card b{justify-self:end;color:#e5b55e;font-size:18px;font-weight:400;opacity:.45;transition:opacity .35s,transform .35s}
+.name-card:hover{background:#10151e;padding-left:28px}
+.name-card:hover h3{transform:translateX(8px);color:#e5b55e}
+.name-card:hover b{opacity:1;transform:translateX(-5px)}
+.reveal-name{opacity:0;transform:translateY(35px);transition:opacity .75s ease,transform .75s ease}
+.reveal-name.show{opacity:1;transform:none}
+@media(max-width:700px){.name-head{align-items:flex-start;gap:25px}.name-head p{text-align:left}.name-card{grid-template-columns:45px 1fr 35px;min-height:75px}.name-card h3{font-size:25px}.name-card:hover{padding-left:18px}}
+@media(max-width:480px){.name-categories{padding:95px 0}.name-head{display:block}.name-head p{margin-top:20px}.name-card h3{font-size:22px}}
+
+/* ===== VENKY'S BRAND WORLD — STRONGER BRAND HIGHLIGHT ===== */
+.hero-brand-title{
+  display:flex;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:10px;
+  font-size:clamp(23px,3vw,42px);
+  line-height:1;
+  letter-spacing:5px;
+  font-weight:700;
+  margin-bottom:12px;
+  text-transform:uppercase;
+  text-shadow:0 5px 28px rgba(0,0,0,.75);
+}
+.hero-brand-title strong{
+  color:#e5b55e;
+  font-weight:700;
+  position:relative;
+}
+.hero-brand-title strong:after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-8px;
+  height:1px;
+  background:linear-gradient(90deg,#e5b55e,transparent);
+}
+.hero-tagline{
+  display:inline-block;
+  color:#f4f0e8;
+  border-left:2px solid #e5b55e;
+  padding-left:13px;
+  margin:8px 0 16px;
+  font:italic clamp(17px,2vw,27px) "Playfair Display";
+  letter-spacing:2px;
+}
+.brand-ribbon{
+  width:100%;
+  border-top:1px solid #3a414c;
+  border-bottom:1px solid #3a414c;
+  padding:18px 0;
+  margin-bottom:55px;
+  display:flex;
+  align-items:center;
+  gap:18px;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.brand-ribbon span{
+  font-size:11px;
+  letter-spacing:5px;
+  color:#f4f0e8;
+}
+.brand-ribbon b{
+  font:700 clamp(20px,3vw,34px) "Playfair Display";
+  letter-spacing:2px;
+  color:#e5b55e;
+}
+.brand-ribbon em{
+  font-size:9px;
+  letter-spacing:4px;
+  color:#929aa6;
+  font-style:normal;
+}
+@media(max-width:600px){
+  .hero-brand-title{font-size:20px;letter-spacing:3px;gap:7px}
+  .hero-tagline{font-size:17px}
+  .brand-ribbon{gap:11px;overflow:auto}
+  .brand-ribbon em{font-size:7px;letter-spacing:2px}
+}
+
+/* EXTRA LARGE VENKY'S BRAND WORLD */
+.hero-brand-title{
+  font-size:clamp(34px,5vw,72px)!important;
+  letter-spacing:7px!important;
+  font-weight:800!important;
+  gap:14px!important;
+  margin-bottom:18px!important;
+}
+.hero-brand-title strong{
+  font-size:1.08em!important;
+}
+.hero-tagline{
+  font-size:clamp(21px,2.8vw,38px)!important;
+  letter-spacing:3px!important;
+  padding-left:18px!important;
+  margin:10px 0 22px!important;
+}
+.brand-ribbon b{
+  font-size:clamp(28px,4vw,50px)!important;
+}
+@media(max-width:700px){
+  .hero-brand-title{
+    font-size:clamp(27px,8vw,43px)!important;
+    letter-spacing:4px!important;
+  }
+  .hero-tagline{font-size:20px!important}
+}
+
+/* MEDIUM VENKY'S BRAND WORLD SIZE */
+.hero-brand-title{
+  font-size:clamp(27px,3.6vw,52px)!important;
+  letter-spacing:5px!important;
+  gap:10px!important;
+  margin-bottom:14px!important;
+}
+.hero-brand-title strong{font-size:1.05em!important}
+.hero-tagline{
+  font-size:clamp(18px,2.2vw,29px)!important;
+  letter-spacing:2px!important;
+  padding-left:14px!important;
+  margin:8px 0 18px!important;
+}
+.brand-ribbon b{font-size:clamp(24px,3.2vw,40px)!important}
+@media(max-width:700px){
+  .hero-brand-title{font-size:clamp(24px,6.5vw,36px)!important;letter-spacing:3px!important}
+  .hero-tagline{font-size:18px!important}
+}
+
+/* LARGER HERO LOCATION / BRAND LINE */
+.copy>small{
+  display:block!important;
+  font-size:clamp(14px,1.8vw,23px)!important;
+  letter-spacing:4px!important;
+  font-weight:700!important;
+  color:#f0ece3!important;
+  margin-top:12px!important;
+}
+
+/* ===== HERO BRAND POSITION / COLORS ===== */
+.hero .copy{
+  top:15%!important;
+  left:7%!important;
+  max-width:520px!important;
+  z-index:5!important;
+}
+.hero-brand-title{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:flex-start!important;
+  gap:2px!important;
+  font-size:clamp(30px,4vw,56px)!important;
+  line-height:.98!important;
+  letter-spacing:4px!important;
+  margin-bottom:18px!important;
+  text-shadow:0 4px 22px rgba(0,0,0,.8)!important;
+}
+.hero-brand-title .brand-venkys{
+  color:#e5b55e!important;
+  font-weight:800!important;
+}
+.hero-brand-title .brand-world{
+  color:#f4f0e8!important;
+  font-weight:800!important;
+}
+.hero-brand-title .brand-location{
+  color:#e5b55e!important;
+  font-size:.42em!important;
+  letter-spacing:5px!important;
+  font-family:"DM Sans",sans-serif!important;
+  font-weight:700!important;
+  margin-top:7px!important;
+}
+.hero-tagline{
+  margin-top:4px!important;
+}
+.hero .copy>small{
+  font-size:9px!important;
+  letter-spacing:3px!important;
+  color:#bfc5ce!important;
+}
+/* Keep the branding safely on the left side, away from the owner's face. */
+@media(min-width:1000px){
+  .hero .copy{max-width:500px!important}
+}
+@media(max-width:700px){
+  .hero .copy{
+    top:13%!important;
+    left:6%!important;
+    max-width:360px!important;
+  }
+  .hero-brand-title{
+    font-size:clamp(26px,7vw,40px)!important;
+    letter-spacing:3px!important;
+  }
+  .hero-brand-title .brand-location{
+    font-size:9px!important;
+    letter-spacing:3px!important;
+  }
+}
+
+/* ===== CLEAN HERO BRANDING FINAL ===== */
+.hero{background:#07090c!important}
+.hero>img{
+  object-position:68% 30%!important;
+}
+.shade{
+  background:
+    linear-gradient(90deg,#05070c 0%,#05070cd9 25%,#05070c86 47%,#05070c18 72%,#05070c55 100%),
+    linear-gradient(0deg,#07090c 0%,transparent 55%)!important;
+}
+.hero .copy{
+  left:6.5%!important;
+  top:19%!important;
+  width:min(510px,42vw)!important;
+  max-width:510px!important;
+  z-index:8!important;
+}
+.hero-brand-title{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:flex-start!important;
+  gap:0!important;
+  margin:0!important;
+  padding:0!important;
+  line-height:.92!important;
+  letter-spacing:3px!important;
+  text-transform:uppercase!important;
+}
+.hero-brand-title .brand-venkys{
+  color:#e5b55e!important;
+  font:800 clamp(30px,3.6vw,54px)/.95 "DM Sans",sans-serif!important;
+  margin:0!important;
+}
+.hero-brand-title .brand-world{
+  color:#f4f0e8!important;
+  font:800 clamp(30px,3.6vw,54px)/.95 "DM Sans",sans-serif!important;
+  margin:0!important;
+}
+.brand-location{
+  display:block!important;
+  color:#e5b55e!important;
+  font:700 clamp(12px,1.2vw,17px)/1 "DM Sans",sans-serif!important;
+  letter-spacing:5px!important;
+  margin-top:13px!important;
+  padding-left:2px!important;
+}
+.hero-tagline{
+  color:#f4f0e8!important;
+  font:italic clamp(19px,2.1vw,29px)/1 "Playfair Display",serif!important;
+  letter-spacing:1px!important;
+  border:0!important;
+  padding:0!important;
+  margin:22px 0 18px!important;
+}
+.hero .copy>p{
+  margin:0!important;
+  max-width:420px!important;
+  color:#c5cad2!important;
+  line-height:1.65!important;
+}
+.hero .copy .btn{
+  margin-top:22px!important;
+}
+@media(max-width:800px){
+  .hero>img{object-position:67% 28%!important}
+  .hero .copy{
+    left:6%!important;
+    top:16%!important;
+    width:78%!important;
+    max-width:390px!important;
+  }
+  .hero-brand-title .brand-venkys,
+  .hero-brand-title .brand-world{
+    font-size:clamp(25px,7vw,40px)!important;
+  }
+  .brand-location{font-size:10px!important;letter-spacing:4px!important}
+  .hero-tagline{font-size:19px!important;margin:17px 0!important}
+}
+@media(max-width:520px){
+  .hero .copy{top:14%!important}
+  .hero>img{object-position:69% 25%!important}
+}
+
+
+/* MOBILE OWNER HERO FIX */
+@media (max-width: 700px) {
+  .hero,
+  .hero-media,
+  .hero-image,
+  .hero__media {
+    overflow: hidden;
+  }
+
+  .hero img,
+  .hero-media img,
+  .hero-image img,
+  .hero__media img,
+  .hero video {
+    object-position: 64% 18% !important;
+  }
+
+  .hero::after,
+  .hero-media::after,
+  .hero-image::after,
+  .hero__media::after {
+    opacity: 0.42 !important;
+  }
+}
+
+/* MOBILE OWNER IMAGE: dedicated crop for narrow screens */
+.hero > picture { display:block; width:100%; height:100%; }
+.hero > picture > img { width:100%; height:100%; object-fit:cover; object-position:center center; }
+@media (max-width:700px){
+  .hero > picture > img { object-position:center center !important; }
+  .hero .shade { background:linear-gradient(90deg,#05070bbd,#05070b55 55%,#05070b25),linear-gradient(0deg,#07090cdd,transparent 52%); }
+}
+
+/* FINAL MOBILE HERO COMPOSITION */
+@media (max-width: 700px) {
+  .hero > picture > img { object-position: 58% center !important; }
+  .hero .shade {
+    background: linear-gradient(90deg, #05070bf0 0%, #05070bc4 32%, #05070b52 58%, #05070b18 100%),
+                linear-gradient(0deg, #07090ce0 0%, transparent 58%);
+  }
+  .hero .copy { left: 5.5% !important; top: 15% !important; max-width: 54% !important; }
+  .hero-brand-title { font-size: clamp(23px, 6vw, 34px) !important; letter-spacing: 2.5px !important; }
+  .hero-tagline { font-size: 17px !important; }
+  .hero .copy > p { font-size: 14px !important; line-height: 1.65 !important; }
+  .hero .copy .btn { padding: 13px 14px !important; font-size: 8px !important; }
+}
